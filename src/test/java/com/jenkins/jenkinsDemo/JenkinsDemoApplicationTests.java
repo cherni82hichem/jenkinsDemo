@@ -13,6 +13,7 @@ class JenkinsDemoApplicationTests {
 	void contextLoads() {
 		logger.info("Test Application executed **************************************");
 		Assertions.assertEquals(true,true);
+		logger.info("Test Application finished **************************************");
 	}
 
 }
