@@ -12,7 +12,7 @@ public class JenkinsDemoApplication {
 	public static Logger logger = LoggerFactory.getLogger(JenkinsDemoApplication.class);
 	@PostConstruct
 	public  void log(){
-		logger.info("PostConstruct:Application started ***************************************");
+		logger.info("Application started ***************************************");
 	}
 
 	public static void main(String[] args) {
