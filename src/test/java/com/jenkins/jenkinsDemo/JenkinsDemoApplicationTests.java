@@ -8,11 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class JenkinsDemoApplicationTests {
-	public static Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
+	Logger logger = LoggerFactory.getLogger(JenkinsDemoApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("Test Application executed **************************************");
-		Assertions.assertEquals(true,true);
+		return Assertions.assertEquals(true,true);
 		logger.info("Test Application finished **************************************");
 	}
 
